@@ -14,5 +14,28 @@
 
         <h2>Where to find the tutorial</h2>
         <p><a href="http://www.htmldog.com">HTML Dog</a></p>
+
+        <form action="contactus.php" method="post">
+
+            <p>Name:</p>
+            <p><input type="text" name="name" value="Your name"></p>
+        
+            <p>Species:</p>
+            <p><input name="species" value="Reptile"></p>
+            <!-- remember: 'type="text"' isn't actually necessary -->
+        
+            <p>Comments: </p>
+            <p><textarea name="comments" rows="8" cols="20">Your comments</textarea></p>
+        
+            <p>Are you:</p>
+            <p><input type="radio" name="areyou" value="male"> Male</p>
+            <p><input type="radio" name="areyou" value="female"> Female</p>
+            <p><input type="radio" name="areyou" value="hermaphrodite"> An hermaphrodite</p>
+            <p><input type="radio" name="areyou" value="asexual"> Asexual</p>
+        
+            <p><input type="submit" value="The Submit Button"></p>
+        
+        </form>
+        </table>
     </body>
 </html>
