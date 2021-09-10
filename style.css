@@ -69,8 +69,6 @@ p {
 
 }
 
-div p {
-    color: red;
+li {
+    display: inline;
 }
-
-p { color: blue;}
