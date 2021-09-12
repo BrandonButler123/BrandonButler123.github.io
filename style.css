@@ -72,3 +72,17 @@ p {
 li {
     display: none;
 }
+
+p {
+    font-size: 12px;
+}
+
+p::first-letter {
+    font-size: 24px;
+    float: left;
+}
+
+
+p::first-line {
+    font-weight: bold;
+}
