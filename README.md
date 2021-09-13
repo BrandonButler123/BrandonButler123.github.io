@@ -1,5 +1,5 @@
 ### First project, completed using a combination of HTML, CSS & JS 
-#### Project will be of a recipe website
+The completed project will be a recipe wesite, including a rwquest page for input from users
 
 ### Please see the included POC prototype below
 
