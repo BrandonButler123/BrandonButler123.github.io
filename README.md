@@ -1,7 +1,8 @@
-# Tutorial1
- Tutorial1
+# Coding Tutorials
+ 
+This project consists of HTML, CSS & JS tutorials. 
+The project includes beginner, intermediate & advanced level tutorials
 
- # This is a project consisting of HTML, CSS & JS tutorials.
-## The project includes beginner, intermediate & advanced level tutorials
+
 
 ### Please see the included POC prototype below
