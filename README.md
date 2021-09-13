@@ -8,4 +8,4 @@
 #####    
 ### Please see the included POC prototype below
 
-![Cooking with @Brandon.eats POC v.1](/Tutorial1/website1POC.jpg)
+![POC](/Tutorial1/website1POC.jpg)
