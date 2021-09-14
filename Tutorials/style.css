@@ -50,10 +50,8 @@ strong {
     text-transform: uppercase;
 }
 
-li {
-    color: #900;
-    font-style: italic;
-}
+
+
 
 table {
     background-color: #ccc;
@@ -69,8 +67,7 @@ p {
 
 }
 
-li {
-    display: none;
+
 }
 
 p {
@@ -89,11 +86,17 @@ p::first-line {
 
 #navigation {
     position: absolute;
-    top: 0;
+    top: 50px;
     left: 0;
     width: 200px;
 }
 
+#navigation2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+}
+
 #content {
-    margin-left: 200px;
-} 
+    margin: 0 200px;
