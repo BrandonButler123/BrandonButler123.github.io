@@ -1,5 +1,5 @@
 ### This is my first project, completed under the direction of Get Coding
-### This project was completed usings a combination of HTML, CSS & JS 
+#### This project was completed usings a combination of HTML, CSS & JS 
 
 #### Author: Brandon Butler
 
