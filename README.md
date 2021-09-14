@@ -1,4 +1,8 @@
-### First project, completed using a combination of HTML, CSS & JS 
+### This is my first project, completed under the direction of Get Coding
+### This project was completed usings a combination of HTML, CSS & JS 
+
+#### Author: Brandon Butler
+
 The completed project will be a recipe wesite, including a request page for input from users
 
 ### __________________________________________________________________________________________________
