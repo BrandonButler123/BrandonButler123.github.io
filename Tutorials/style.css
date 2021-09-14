@@ -68,7 +68,7 @@ p {
 }
 
 
-}
+
 
 p {
     font-size: 12px;
@@ -100,3 +100,4 @@ p::first-line {
 
 #content {
     margin: 0 200px;
+}
