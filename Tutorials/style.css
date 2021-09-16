@@ -101,3 +101,7 @@ p::first-line {
 #content {
     margin: 0 200px;
 }
+
+li::after {
+    content: "POW! ";
+}
