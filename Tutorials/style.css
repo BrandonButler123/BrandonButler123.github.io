@@ -85,7 +85,7 @@ p::first-line {
 }
 
 #navigation {
-    position: absolute;
+    position: relative;
     top: 50px;
     left: 0;
     width: 200px;
