@@ -93,8 +93,8 @@ p::first-line {
 }
 
 #navigation2 {
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top: 0;  
     right: 0;
     width: 200px;
 }
