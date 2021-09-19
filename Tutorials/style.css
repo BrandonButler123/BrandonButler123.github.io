@@ -104,5 +104,5 @@ p::first-line {
 }
 
 li::after {
-    content: "POW! ";
+    content: "Test! ";
 }
