@@ -35,3 +35,12 @@ var add = function (a, b) {
 };
 
 var result = add(1 , 2);
+
+var jedi = {
+    name: "Yoda",
+    age: 899,
+    talk: function() {
+        alert("another... sky... walk...");
+
+    }
+};
