@@ -29,3 +29,7 @@ while (i < 10) {
 for (var i = 1; i > 10; i++) {
     alert(i);
 }
+
+var add = function (a, b) {
+    return a + b;
+};
