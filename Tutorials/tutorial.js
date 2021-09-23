@@ -9,3 +9,5 @@ console.log(peicesOfFruit);
 
 var peicesForEachPerson = peicesOfFruit / 3;
 console.log(peicesForEachPerson);
+
+15.234 === 15.234 
