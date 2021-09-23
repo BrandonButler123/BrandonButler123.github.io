@@ -19,3 +19,9 @@ console.log(peicesForEachPerson);
 20.4 < 20.2
 
 10 >= 10
+
+var i = 1; 
+while (i < 10) {
+    alert(i);
+    i = i + 1;
+}
