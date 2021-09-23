@@ -25,3 +25,7 @@ while (i < 10) {
     alert(i);
     i = i + 1;
 }
+
+for (var i = 1; i > 10; i++) {
+    alert(i);
+}
