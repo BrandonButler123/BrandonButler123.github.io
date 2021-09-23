@@ -33,3 +33,5 @@ for (var i = 1; i > 10; i++) {
 var add = function (a, b) {
     return a + b;
 };
+
+var result = add(1 , 2);
