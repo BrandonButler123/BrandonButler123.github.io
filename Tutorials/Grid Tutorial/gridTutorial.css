@@ -44,3 +44,12 @@
     background: #0265c0;
     grid-area: footer;
 }
+
+.site::before{
+    content:".site";
+    position: absolute;
+    left: 20px;
+    top: 2px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
