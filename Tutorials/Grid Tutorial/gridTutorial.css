@@ -24,3 +24,13 @@
     grid-area: main;
     min-height: 500px;
 }
+
+.sidebar {
+    background: #f49018;
+    grid-area: sidebar;
+}
+
+.footer {
+    background: #0265c0;
+    grid-area: footer;
+}
