@@ -1,15 +1,26 @@
 .site {
     display: grid;
-    grid-template-columns: 300px auto 300px;
-    grid-template-rows: 50px ; /*the height of the rows*/
-    background-color: red;
-    grid-column-gap: 10px;
-    grid-row-gap:    10px;
+    grid-template-columns: 2fr 1fr; 
+    grid-gap: 10px;
+    grid-template-areas:"header header"
+    "title sidebar"
+    "main sidebar"
+    "footer footer";
+
+}
+   
+.mastheader {
+    background: #b46ae3;
+    grid-area: header;
 }
 
-.main {
-    background-color: darkgray;
-    grid-template-rows: 800px;
-    grid-template-columns: 300px;
+.page-title {
+    background: #51a7fa;
+    grid-area: title;
 }
 
+.main-content {
+    background: #70bf40;
+    grid-area: main;
+    min-height: 500px;
+}
