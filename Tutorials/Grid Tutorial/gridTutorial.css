@@ -60,8 +60,7 @@
     background-color: aqua;
     padding: 20px;
     margin: 20px;
-    grid-column-gap: 5px;
-    grid-row-gap: 10px;
+    grid-gap:10px ;
 }
 
 .grid-item {
