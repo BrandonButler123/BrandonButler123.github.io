@@ -69,3 +69,19 @@
     text-align: center;
     font-size: 30px;
 }
+
+.title {
+    margin: 20px;
+    padding: 10px;
+    background-color: palevioletred;
+    text-align: center;
+}
+
+.p1 {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+
+}
