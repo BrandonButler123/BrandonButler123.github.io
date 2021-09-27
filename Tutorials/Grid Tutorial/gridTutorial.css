@@ -89,4 +89,9 @@
 .grid-container1 {
     display: grid;
     grid-template-columns: auto auto auto;
+    background-color:#70bf40;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
