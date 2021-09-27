@@ -55,11 +55,13 @@
 }
 
 .grid-container {
-    display: grid;
+    display:grid;
     grid-template-columns: auto auto auto;
     background-color: aqua;
     padding: 20px;
     margin: 20px;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
 }
 
 .grid-item {
