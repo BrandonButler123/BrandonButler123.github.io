@@ -30,8 +30,11 @@ body {
 
 .prompt {
     font-family: Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 11px;
     color: #C23628;
     text-align: left;
-    padding-top: 70px;
+}
+
+.email {
+    color: #7B7B7B;
 }
