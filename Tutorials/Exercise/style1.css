@@ -3,7 +3,7 @@ body {
     background-color: #000639 ;
     padding: 30px;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 30%;
 }
 
 .title {
@@ -37,4 +37,12 @@ body {
 
 .email {
     color: #7B7B7B;
+}
+
+input[type=email]  {
+    width: 40%;
+    padding: 14px;
+    font-size: 14px;
+  
+
 }
