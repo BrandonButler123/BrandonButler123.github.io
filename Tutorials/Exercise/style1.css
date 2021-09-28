@@ -40,9 +40,20 @@ body {
 }
 
 input[type=email]  {
-    width: 20%;
-    padding: 14px;
+    width: 230px;
+    padding: 12px;
     font-size: 14px;
-  
+}
+
+.signup {
+    width: 500px;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 14px;
+    background-color: #5c6ac4;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight:600;
 
 }
+
