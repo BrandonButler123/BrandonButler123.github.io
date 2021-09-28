@@ -1,11 +1,21 @@
 
 body {
     background-color: #000639 ;
+    padding: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .title {
     font-family: Helvetica, sans-serif;
     font-size: 24px;
     color: #FFFFFF;
-    text-align: center;
+    text-align:left;
+}
+
+.title1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: left;
 }
