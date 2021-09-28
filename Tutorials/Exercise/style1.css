@@ -3,7 +3,7 @@ body {
     background-color: #000639 ;
     padding: 30px;
     margin-left: 10%;
-    margin-right: 30%;
+    margin-right: 10%;
 }
 
 .title {
@@ -25,7 +25,7 @@ body {
     font-size: 16px;
     color: #FFFFFF;
     text-align: left;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .prompt {
@@ -57,3 +57,10 @@ input[type=email]  {
 
 }
 
+.hr {  
+width: 25px;  
+height: 2px;  
+background-color: #7AB55C;    
+align-content:flex-start;
+
+}  
