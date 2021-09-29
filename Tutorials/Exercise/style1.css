@@ -26,6 +26,7 @@ body {
     color: #FFFFFF;
     text-align: left;
     padding-top: 40px;
+    font-weight: 510;
 }
 
 .prompt {
@@ -33,6 +34,7 @@ body {
     font-size: 11px;
     color: #C23628;
     text-align: left;
+    font-weight: 700;
 }
 
 .email {
@@ -53,14 +55,30 @@ input[type=email]  {
     background-color: #5c6ac4;
     text-align: center;
     color: #FFFFFF;
-    font-weight:600;
+    font-weight:650;
 
 }
 
 .hr {  
-width: 25px;  
-height: 2px;  
-background-color: #7AB55C;    
-align-content:flex-start;
+    width: 25px;  
+    height: 2px;  
+    background-color: #7AB55C;    
+    align-content:flex-start;
 
 }  
+
+.footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: #FFFFFF;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.border {
+    align-content: center;
+}
