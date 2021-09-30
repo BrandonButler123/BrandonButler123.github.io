@@ -63,7 +63,6 @@ input[type=email]  {
     color: #FFFFFF;
     font-weight:650;
     border-radius: 8px;
-
 }
 
 .hr {  
@@ -75,12 +74,16 @@ input[type=email]  {
 }  
 
 .footer {
-    padding-top: 10px;
+    position: fixed;
+    padding: 15px;
     width: 100%;
     color: #FFFFFF;
     font-family: Helvetica, sans-serif;
     font-size: 12px;
     text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
     
 }
 
