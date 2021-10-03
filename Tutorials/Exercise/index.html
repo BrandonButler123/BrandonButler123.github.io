@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creatros - Newsletter SignUp</title>
     <link rel="stylesheet" href="style1.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
 </head>
 <body>
 
@@ -19,31 +20,39 @@
 
     <div class="hr"></div>
 
+    <div>
+    
+        <form>
 
+            <p class="subscribe">Subscribe for free</p>
 
-<form action="/action_page.php">
+            <input class="email" type="email" placeholder="Email Address">
 
-    <p class="subscribe">Subscribe for free</p>
+            <input list="langlist" type="text" placeholder="Interested in ..." class="interests">
+            <i class="fa fa-folder-open"></i>
+            <datalist id="langlist">
+                <option value="JS">
+                <option value="HTML">
+            </datalist>
 
-    <input class="email" type="email" placeholder="Email Address">
+            <!-- <select name="interests" class="interests" placeholder= ">Interested in...">
 
-    <select name="interests" class="interests">
+                <option>Java Script</option>
 
-        <option selected>Interested in...</option>
+                <option>HTML</option>
 
-        <option>Java Script</option>
+                <option>CSS</option>
 
-        <option>HTML</option>
+                <i class="fa fa-folder-open"></i>
+            </select> -->
 
-        <option>CSS</option>
+            <p class="prompt">Please enter a valid email address</p>
 
-    </select>
+            <input class="signup" type="submit" value="Sign up now">
+        
+        </form>
 
-    <p class="prompt">Please enter a valid email address</p>
-
-    <input class="signup" type="submit" value="Sign up now">
-   
-</form>
+    </div>
 
 
 
