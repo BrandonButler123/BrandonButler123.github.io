@@ -1,14 +1,18 @@
 
 
 .container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
+  
     padding-top: 15px;
 }
 
 body {
     background-color: #000639 ;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: #FFFFFF;
 }
 
 .title {
@@ -103,7 +107,7 @@ input[type=email]  {
 
 /* Why does the default arrow still show up in the background & why will it not let me click the arrow to complete the drop down */
 i.fa-arrow-down {
-    transform: translatex(calc(-120%)); /* move left the icon's width */
+    transform: translatex(calc(-160%)); /* move left the icon's width */
     border-left: 1px solid rgb(8, 8, 8);       /* add the border             */
     padding: 0 10px;                     /* left and right padding     */
   }
