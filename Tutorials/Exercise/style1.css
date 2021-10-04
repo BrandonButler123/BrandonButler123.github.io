@@ -100,8 +100,10 @@ input[type=email]  {
     */
 } 
 
-i.fa-folder-open {
-    transform: translatex(calc(-100%)); /* move left the icon's width */
+
+/* Why does the default arrow still show up in the background & why will it not let me click the arrow to complete the drop down */
+i.fa-arrow-down {
+    transform: translatex(calc(-120%)); /* move left the icon's width */
     border-left: 1px solid rgb(8, 8, 8);       /* add the border             */
     padding: 0 10px;                     /* left and right padding     */
   }
