@@ -54,7 +54,7 @@ input[type=email]  {
 }
 
 .signup {
-    width: 475px;
+    width: 465px;
     padding: 12px;
     margin-top: 10px;
     font-size: 14px;
@@ -90,7 +90,7 @@ input[type=email]  {
 .interests {
     color: #7B7B7B;
     border-radius: 8px;
-    width: 200px;
+    width: 242px;
     padding: 11px;
     margin-left: 10px;    
     font-size: 14px;
