@@ -11,7 +11,7 @@ body {
 
 .grid-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     color: #FFFFFF;
     justify-content: left;
     background-color:#000639;
@@ -81,18 +81,16 @@ input[type=email]  {
 }  
 
 .footer {
-    position: fixed;
-    padding: 15px;
+    padding: 15px; */
     width: 100%;
     color: #FFFFFF;
     font-family: Helvetica, sans-serif;
     font-size: 12px;
     text-align: center;
-    bottom: 0;
+    /* bottom: 0;
     left: 0;
-    right: 0;
-    
-}
+    right: 0;    */
+} 
 
 .interests {
     color: #7B7B7B;
@@ -117,4 +115,9 @@ i.fa-arrow-down {
 
   input {
     padding-right: 2em;                 /* prevent typing over icon   */
+  }
+
+  .grid-item2 {
+      width: auto;
+      margin: auto;
   }
