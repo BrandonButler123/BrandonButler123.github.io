@@ -88,6 +88,7 @@ input[type=email]  {
     font-size: 12px;
     text-align: center;
     position: relative;
+    bottom: 10px;
     /* bottom: 0;
     left: 0;
     right: 0;    */
