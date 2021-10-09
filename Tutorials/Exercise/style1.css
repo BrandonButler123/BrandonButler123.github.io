@@ -109,7 +109,8 @@ input[type=email]  {
 
 } 
 
-input::-webkit-calendar-picker-indicator {
+
+[list]::-webkit-calendar-picker-indicator {
     display: none;
   }
 
