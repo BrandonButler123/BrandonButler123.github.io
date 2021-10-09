@@ -102,10 +102,10 @@ input[type=email]  {
     margin-left: 10px;    
     font-size: 14px;
     position: absolute;
-    /* appearance: none;
+    appearance: none;
     background: url(downarrow.png) no-repeat left 150px center;
-    background-size: 30px 
-    */
+    background-size: 15px;
+    background-color: #FFFFFF;    
 } 
 
 
