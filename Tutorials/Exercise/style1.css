@@ -106,7 +106,7 @@ input[type=email]  {
     background: url(downarrow.png) no-repeat left 150px center; 
     background-size: 12px;
     background-color: #FFFFFF;    
-    display: none;
+
 } 
 
 input::-webkit-calendar-picker-indicator {
