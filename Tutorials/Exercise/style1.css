@@ -55,7 +55,7 @@ body {
 }
 
 input[type=email]  {
-    width: 1fr;
+    width: 230px;
     padding: 12px;
     font-size: 14px;
 }
@@ -96,10 +96,11 @@ input[type=email]  {
 .interests {
     color: #7B7B7B;
     border-radius: 8px;
-    width: 1.5fr;
+    width:200px;
     padding: 11px;
     margin-left: 10px;    
     font-size: 14px;
+    position: fixed;
     /* appearance: none;
     background: url(downarrow.png) no-repeat left 150px center;
     background-size: 30px 
