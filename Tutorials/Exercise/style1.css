@@ -106,7 +106,9 @@ input[type=email]  {
     background: url(downarrow.png) no-repeat left 150px center; 
     background-size: 12px;
     background-color: #FFFFFF;    
+ 
 } 
+
 
 
 /* Why does the default arrow still show up in the background & why will it not let me click the arrow to complete the drop down */
