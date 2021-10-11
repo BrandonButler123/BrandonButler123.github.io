@@ -106,12 +106,12 @@ input[type=email]  {
     background: url(downarrow.png) no-repeat left 150px center; 
     background-size: 12px;
     background-color: #FFFFFF;    
-
 } 
 
 
+
 [list]::-webkit-calendar-picker-indicator {
-    display: none;
+    display: none !important; 
   }
 
 
@@ -125,10 +125,14 @@ i.fa-arrow-down {
 
   input {
     padding-right: 2em;                 /* prevent typing over icon   */
-  }
+
+}
+
+
 
   .grid-item2 {
       width: auto;
       margin: auto;
       margin-top: 10%;
   }
+
