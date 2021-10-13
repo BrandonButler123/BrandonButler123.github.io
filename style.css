@@ -1,0 +1,9 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'margin_left content margin_right'
+    'menu menu menu'
+    'margin_left content Margin_right';
+    background-color: aqua;
+    
+}
