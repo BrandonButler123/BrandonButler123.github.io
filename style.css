@@ -1,15 +1,15 @@
 .item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
+.item2 { grid-area: main; }
+.item3 { grid-area: right; }
+.item4 { grid-area: left; }
 .item5 { grid-area: footer; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
+    'left header header header right'
+    'left main main main right'
+    'left footer footer footer right';
   grid-gap: 10px;
   background-color: #2196F3;
   padding: 10px;
