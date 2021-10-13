@@ -3,11 +3,13 @@
 .item3 { grid-area: right; }
 .item4 { grid-area: left; }
 .item5 { grid-area: footer; }
+.item6 { grid-area: menu; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
     'left header header header right'
+    'left menu menu menu right'       /* How can I have 'menu' span the enitre width of the page?*/
     'left main main main right'
     'left footer footer footer right';
   grid-gap: 10px;
