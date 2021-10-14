@@ -1,7 +1,7 @@
 .item1 { grid-area: left; }
 .item2 { grid-area: header; }
 .item3 { grid-area: right; }
-.item4 { grid-area: menu; }
+.menu { grid-area: menu; }
 .item5 { grid-area: left1; }
 .item6 { grid-area: right1; }
 .item7 { grid-area: left2; }
