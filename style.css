@@ -2,16 +2,20 @@
 .item2 { grid-area: header; }
 .item3 { grid-area: right; }
 .item4 { grid-area: menu; }
-.item5 { grid-area: main; }
-.item6 { grid-area: footer; }
+.item5 { grid-area: left1; }
+.item6 { grid-area: right1; }
+.item7 { grid-area: left2; }
+.item8 { grid-area: right2; }
+.item9 { grid-area: main; }
+.item10 { grid-area: footer; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
     'left header header header right'
-    'left menu menu menu right'       /* How can I have 'menu' span the enitre width of the page?*/
-    'left main main main right'
-    'left footer footer footer right';
+    'menu menu menu menu menu'       /* How can I combine left1 left 2 into one grid item?*/
+    'left1 main main main right1'
+    'left2 footer footer footer right2';
   grid-gap: 10px;
   background-color: #2196F3;
   padding: 10px;
