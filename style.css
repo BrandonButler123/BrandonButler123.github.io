@@ -1,5 +1,7 @@
+
+
 .item1 { grid-area: left; }
-.item2 { grid-area: header; }
+.item2 { grid-area: header;}
 .item3 { grid-area: right; }
 .menu { grid-area: menu;}
 .item5 { grid-area: left1; }
@@ -11,15 +13,17 @@
 
 .grid-container {
   display: grid;
-   grid-template-areas:
+    grid-template-areas:
     /* want to resize left and right margin w/o having to add in additional areas ie header x5 but reduce to x3 while maintaining same margin */
     'left header header header header header header header right'
     'menu menu menu menu menu menu menu menu menu'       /* How can I combine left1 left 2 into one grid item?*/
     'left1 main main main main main main main right1'
     'left2 footer footer footer footer footer footer footer right2';
     /* eleminate the bottom 2 lines once layout has been setup/completed */
-  /grid-gap: 1px;
+  grid-gap: 1px;
   background-color: #2196F3;
+  
+
 } 
   
 .grid-container > div {
@@ -27,6 +31,7 @@
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+  padding: 0px;
 }
 
 .navbar {
@@ -50,3 +55,9 @@ li a {
     font-size: 16px;
 }
 
+.home {
+    padding: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: white;
+}
