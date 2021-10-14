@@ -61,3 +61,8 @@ li a {
     font-size: 25px;
     background-color: white;
 }
+
+.main {
+    height: 750px;
+    background-color: white;
+}
