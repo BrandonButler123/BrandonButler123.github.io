@@ -16,9 +16,9 @@
     'menu menu menu menu menu'       /* How can I combine left1 left 2 into one grid item?*/
     'left1 main main main right1'
     'left2 footer footer footer right2';
-  grid-gap: 10px;
+    /* eleminate the bottom 2 lines once layout has been setup/completed */
+  grid-gap: 1px;
   background-color: #2196F3;
-  padding: 10px;
 }
 
 .grid-container > div {
