@@ -30,4 +30,22 @@
 
 .navbar {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a6a6a6;
 }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
