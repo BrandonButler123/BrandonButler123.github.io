@@ -11,7 +11,6 @@
 
 .home {
     padding: 15px;
-    font-family:Arial, Helvetica, sans-serif;
     font-size: 25px;
     background-color: white;
 }
@@ -22,12 +21,13 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:  #66a3ff;
+    font-weight: 800;
+    background-color: lightcoral;
 }
 
 
 li {
-    float: left;
+    float: left;    
 }
 
 
@@ -36,8 +36,8 @@ li a {
     color: black;
     text-align: center;
     padding: 12px 16px;
-    font-family:Arial, Helvetica, sans-serif;
     font-size: 16px;
+    color: #000042;
 }
 
 
@@ -81,7 +81,7 @@ li a {
     
 }
 
-img {
+.kitchenprofile {
     border-radius: 50%;
     height: 350px;
     width: 350px;
@@ -100,4 +100,8 @@ img {
 .feature {
     text-align: left;
     margin-left: 110px;
+}
+
+.footer {
+    background-color: white;
 }
