@@ -80,16 +80,12 @@ li a {
     
 }
 
-.circle {
-    height: 300px;
-    width: 300px;
-    background-color: aqua;
+img {
     border-radius: 50%;
+    height: 350px;
+    width: 350px;
     margin: 100px;
-    background-image: url(kitchen.jpg) ;
-    imag
-    background-repeat: no-repeat ;
-
-
 }
+
+
 
