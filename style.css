@@ -4,7 +4,7 @@
     width: min(100%);
     grid-template-columns: 15% 70% 15%;
     text-align: center;
-    background-color: blue;
+    background-color: lightblue;
 }
 
 
@@ -40,10 +40,20 @@ li a {
 }
 
 
-.main {
+.block1 {
+    display: grid;
+    width: min(100%);
+    grid-template-columns: 35% 65%;
     background-color: white;
-    height: 50px;
+    height: 600px;
 }
+.block2 {
+    display: grid;
+    width: min(100%);
+    background-color: white;
+    height: 300px;
+}
+
 
 
 .grid_container2 {
@@ -51,7 +61,7 @@ li a {
     width: min(100%);
     grid-template-columns: 15% 70% 15%;
     text-align: center;
-    background-color: blue;
+    background-color:lightblue;
 }
 
 
@@ -60,10 +70,26 @@ li a {
     width: min(100%);
     grid-template-columns: 15% 70% 15%;
     text-align: center;
-    background-color: blue;
+    background-color:lightblue;
+    height: 10px;
 }
 
+.kitchen {
+    height: 150px;
+    align-content: center;
+    
+}
+
+.circle {
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin: 100px;
+    background-image: url(kitchen.jpg) ;
+    imag
+    background-repeat: no-repeat ;
 
 
-
+}
 
