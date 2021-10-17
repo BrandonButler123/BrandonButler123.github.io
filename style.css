@@ -107,6 +107,7 @@ li a {
     width: 350px;
     margin: 100px; 
     position: relative;
+    border: 1px solid black;
 } 
 
 .description {
