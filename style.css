@@ -102,24 +102,20 @@ li a {
 }
 
 
-.tacquitopic {
-    text-align: left;
-    margin-left: 110px;
-}
+
+/* ------------------------------------------------------------------------------------top of page-------------------------------------------------------------------------------------------- */
+
+
 
 .tacquitos {
     height: 500px;
     width: 600px;
-    border: 2px solid black;
-}
-
-.feature {
-    margin: 25px;
-    text-align: center;
+    border: 1px solid black;
+    margin-left: 100px;
 }
 
 .recipe {
-    border: 2px solid black;
+    border: 1px solid black;
     margin-right: 100px;
     height: 500px;
 }
