@@ -50,11 +50,13 @@ li a {
     background-color: white;
     height: 600px;
 }
+
+
 .block2 {
     display: grid;
     width: min(100%);
     background-color: white;
-    height: 500px;
+    height: 1000px;
     grid-template-columns: 60% 40%;
 }
 
@@ -100,10 +102,38 @@ li a {
 }
 
 
-.feature {
+.tacquitopic {
     text-align: left;
     margin-left: 110px;
 }
+
+.tacquitos {
+    height: 500px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.feature {
+    margin: 25px;
+    text-align: center;
+}
+
+.recipe {
+    border: 2px solid black;
+    margin-right: 100px;
+    height: 500px;
+}
+}
+
+
+
+
+
+
+
+
+
+
 
 .footer {
     background-color: white;
