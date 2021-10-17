@@ -30,7 +30,7 @@
 }
 
 
-li {
+.navbarlist {
     float: left;    
 }
 
@@ -126,7 +126,7 @@ li a {
 
 }
 
-/* ------------------------------------------------------------------------------------top of page-------------------------------------------------------------------------------------------- */
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^top of page^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 
 
@@ -147,23 +147,41 @@ li a {
     text-align: center;
     padding: 5px;
     font-size: 30px;font-weight: 600;
+    margin-bottom: 50px;
 }
 
 .checked {
     color: orange;
   }
-  .rating {
-      text-align: left;
-      margin-left: 100px;
-      font-size: 30px;
-      padding-top: 5px;
+.rating {
+    text-align: left;
+    margin-left: 100px;
+    font-size: 30px;
+    padding-top: 5px;
   }
 
+.tacquitolist {
+    text-align: left;
+    font-size: 18px;
+    padding-bottom: 3px;
+    
+}
 
+.tacquitocontent {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+.tacquitoingediants {
+    text-align: left;
+    padding-left: 20px;
+}
 
-
-
+.tacquitolist2{
+    text-align: left;
+    margin-bottom: 30px;
+}
 /* ------------------------------------------------------------------------------------bottom of page-------------------------------------------------------------------------------------------- */
 
 .footer {
