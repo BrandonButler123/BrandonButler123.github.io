@@ -48,11 +48,26 @@ li a {
     width: min(100%);
     grid-template-columns: 35% 65%;
     background-color: white;
-    height: 600px;
+    height: 550px;
+    padding-top: 10px;
 }
 
 
+
 .block2 {
+    display: grid;
+    width: min(100%);
+    background-color: white;
+    height: 100px;
+}
+
+.feature {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.block3 {
     display: grid;
     width: min(100%);
     background-color: white;
@@ -101,7 +116,12 @@ li a {
     position: sticky;
 }
 
+.description_heading {
+    font-size: 35px;
+    font-weight: 800;
+    padding-bottom: 5px;
 
+}
 
 /* ------------------------------------------------------------------------------------top of page-------------------------------------------------------------------------------------------- */
 
@@ -119,6 +139,11 @@ li a {
     margin-right: 100px;
     height: 500px;
 }
+
+.heading {
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;font-weight: 600;
 }
 
 
@@ -128,8 +153,7 @@ li a {
 
 
 
-
-
+/* ------------------------------------------------------------------------------------bottom of page-------------------------------------------------------------------------------------------- */
 
 .footer {
     background-color: white;
