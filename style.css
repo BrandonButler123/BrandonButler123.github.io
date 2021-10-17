@@ -1,4 +1,6 @@
 
+
+
 /* Why is website not to the edge of website? Appears to be a white border arond the entire page */
 .grid_container1 {
     display: grid;
@@ -53,6 +55,7 @@ li a {
     width: min(100%);
     background-color: white;
     height: 500px;
+    grid-template-columns: 60% 40%;
 }
 
 
