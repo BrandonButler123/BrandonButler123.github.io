@@ -2,6 +2,14 @@
 
 
 /* Why is website not to the edge of website? Appears to be a white border arond the entire page */
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+}
+
 .grid_container1 {
     display: grid;
     width: min(100%);
@@ -31,8 +39,9 @@
 
 
 .navbarlist {
-    float: left;    
+    float: left; 
 }
+
 
 
 li a {
@@ -42,6 +51,7 @@ li a {
     padding: 12px 16px;
     font-size: 16px;
     color: #000042;
+    text-decoration: none;
 }
 
 
@@ -110,7 +120,16 @@ li a {
     margin: 100px; 
     position: relative;
     border: 1px solid black;
+    max-width: 350px;
 } 
+
+@media screen and (max-width: 800px) {
+    .kitchenprofile {
+      max-width: 150px;
+
+    }
+  }
+  
 
 .description {
     text-align: left;
