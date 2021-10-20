@@ -10,6 +10,12 @@ body {
     margin: 0px;
 }
 
+img {
+    width: 100%;
+    height: auto; 
+    object-fit:cover;
+  }
+   
 .grid_container1 {
     display: grid;
     width: min(100%);
@@ -120,16 +126,28 @@ li a {
     margin: 100px; 
     position: relative;
     border: 1px solid black;
-    max-width: 350px;
+    /* max-width: 350px; */
+    max-height: 40em;
 } 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1500px) {
     .kitchenprofile {
-      max-width: 150px;
-
-    }
+      max-width: 75%;
   }
+}
   
+@media screen and (max-width: 1670px) {
+    .tacquitos {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .tacquitos {
+        max-width: 250px;
+    }
+}
+
 
 .description {
     text-align: left;
