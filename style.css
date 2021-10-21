@@ -16,6 +16,11 @@ img {
     object-fit:cover;
   }
    
+
+  * {
+    box-sizing: border-box;
+  }
+   
 .grid_container1 {
     display: grid;
     width: min(100%);
