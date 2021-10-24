@@ -1,0 +1,41 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns:  1.75fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.75fr;
+    grid-template-rows: 0.5fr 6fr 6fr 0.2fr;
+    grid-template-areas:
+        "nav nav nav nav nav nav nav nav nav nav"
+        "sidebarleft content1 content1 content1 content1 content1 content1 content1 content1 sidebarright"
+        "sidebarleft content2 content2 content2 content2 content2 content2 content2 content2 sidebarright"
+        "footer footer footer footer footer footer footer footer footer footer";
+}
+
+nav {
+    background: lightgreen;
+    grid-area: nav;
+}
+
+.sidebarleft {
+    background: #37f;
+    grid-area: sidebarleft;
+}
+
+.sidebarright {
+    background: #40f;
+    grid-area: sidebarright;
+}
+
+.content1 {
+    background: #18ffff;
+    grid-area: content1;
+}
+
+.content2 {
+    background: #64ffda;
+    grid-area: content2;
+}
+
+footer {
+    background: #1de9b6;
+    grid-area: footer;
+}
