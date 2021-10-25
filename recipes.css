@@ -1,10 +1,23 @@
+body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+  }  
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
 .container {
     display: grid;
     height: 100vh;
     grid-template-columns:  1.75fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.75fr;
     grid-template-rows: 0.5fr 6fr 6fr 0.2fr;
     grid-template-areas:
-        "nav nav nav nav nav nav nav nav nav nav"
+        "sidebarleft nav nav nav nav nav nav nav nav sidebarright"
         "sidebarleft content1 content1 content1 content1 content1 content1 content1 content1 sidebarright"
         "sidebarleft content2 content2 content2 content2 content2 content2 content2 content2 sidebarright"
         "footer footer footer footer footer footer footer footer footer footer";
@@ -16,12 +29,12 @@ nav {
 }
 
 .sidebarleft {
-    background: #37f;
+    background: white;
     grid-area: sidebarleft;
 }
 
 .sidebarright {
-    background: #40f;
+    background: white;
     grid-area: sidebarright;
 }
 
@@ -38,4 +51,56 @@ nav {
 footer {
     background: #1de9b6;
     grid-area: footer;
+}
+
+/*-------------------------------------------------------------------------------------------------------- Setting up the grid */
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    font-weight: 800;
+    background-color: white; 
+}
+
+.navbarlist {
+    float: left;  
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 16px;
+    color: #000042;
+    text-decoration: none;
+    margin: 0px;
+} 
+
+.contentbox {
+    margin: 25px 200px;
+    background: white;
+    max-width: 400px;
+
+}
+
+.tacquitos {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: none;
+    clear: both;
+    text-align: center;
+    max-width: 400px;
+    padding-bottom: 15px;
+}
+
+.recipeglance {
+    border: 1px solid black;
+    max-width: 400px;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
