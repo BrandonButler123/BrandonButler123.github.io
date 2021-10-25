@@ -24,28 +24,30 @@ body {
 }
 
 nav {
-    background: lightgreen;
-    grid-area: nav;
+    grid-area: nav;  
 }
 
 .sidebarleft {
     background: white;
     grid-area: sidebarleft;
+    border-right: 1px solid black;
 }
 
 .sidebarright {
     background: white;
     grid-area: sidebarright;
+    border-left: 1px solid black;
 }
 
 .content1 {
-    background: #18ffff;
+    /* background: #18ffff; */
     grid-area: content1; 
-    text-align: center
+    text-align: center;
+    margin-top: 60px;
 }
 
 .content2 {
-    background: #64ffda;
+    /* background: #64ffda; */
     grid-area: content2;
     text-align: center;
 }
@@ -64,8 +66,10 @@ footer {
     overflow: hidden;
     font-weight: 800;
     background-color: white; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:lightskyblue; 
 }
-
 .navbarlist {
     float: left;  
 }
@@ -93,18 +97,35 @@ li a {
 .recipeglance {
     border: 1px solid black;
     min-width: 200px;
-    align-content: center;
+    max-width: 500px;
     padding-left: 5px;
     padding-right: 5px;
-    font-size: 15px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    text-align: left;
+    align-content: left;
+
 }
 
 .rating {
     align-content: left;
     font-size: 25px;
-    padding-top: 5px;
+    margin-right: 360px;   /*Needs to be aligned left properly */
   }
 
   .checked {
     color: orange;
+  }
+
+  .button1 {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: lightgray;
   }
