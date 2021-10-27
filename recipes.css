@@ -14,13 +14,13 @@ body {
 .container {
     display: grid;
     height: 100vh;
-    grid-template-columns:  0.2fr 3fr 3fr 3fr 0.2fr;
+    grid-template-columns:  0.3fr 0.2fr 3fr 0.2fr 3fr 0.2fr 3fr 0.2fr 0.3fr;
     grid-template-rows: 0.5fr 3fr 3fr 0.2fr;
     grid-template-areas:
-        "nav nav nav nav nav"
-        "sidebarleft content1-1 content1-2 content1-3 sidebarright"
-        "sidebarleft content2-1 content2-2 content2-3 sidebarright"
-        "footer footer footer footer footer";
+        "nav nav nav nav nav nav nav nav nav"
+        "sidebarleft div1-1 content1-1 div1-2 content1-2 div1-3 content1-3 div1-4 sidebarright"
+        "sidebarleft div2-1 content2-1 div2-2 content2-2 div2-3 content2-3 div2-4 sidebarright"
+        "footer footer footer footer footer footer footer footer footer";
 }
 
 nav {
@@ -52,13 +52,13 @@ nav {
 .content1-2 {
     background: #18ffff;
     grid-area: content1-2; 
-    background: black;
+    background: yellow;
 }
 
 .content1-3 {
     background: #18ffff;
     grid-area: content1-3; 
-    background: black;
+    background:red;
 }
 
 .content2-1 {
@@ -71,7 +71,7 @@ nav {
 .content2-2 {
     background: #64ffda;
     grid-area: content2-2;
-    background: black;
+    background: orange;
 }
 
 .content2-3 {
