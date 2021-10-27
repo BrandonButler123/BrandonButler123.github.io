@@ -14,42 +14,70 @@ body {
 .container {
     display: grid;
     height: 100vh;
-    grid-template-columns:  2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
-    grid-template-rows: 0.5fr 6fr 6fr 0.2fr;
+    grid-template-columns:  0.2fr 3fr 3fr 3fr 0.2fr;
+    grid-template-rows: 0.5fr 3fr 3fr 0.2fr;
     grid-template-areas:
-        "sidebarleft nav nav nav nav nav nav nav nav sidebarright"
-        "sidebarleft content1 content1 content1 content1 content1 content1 content1 content1 sidebarright"
-        "sidebarleft content2 content2 content2 content2 content2 content2 content2 content2 sidebarright"
-        "footer footer footer footer footer footer footer footer footer footer";
+        "nav nav nav nav nav"
+        "sidebarleft content1-1 content1-2 content1-3 sidebarright"
+        "sidebarleft content2-1 content2-2 content2-3 sidebarright"
+        "footer footer footer footer footer";
 }
 
 nav {
-    grid-area: nav;  
+    grid-area: nav; 
+    background: red; 
 }
 
 .sidebarleft {
     background: white;
     grid-area: sidebarleft;
     border-right: 1px solid black;
+    background: blueviolet;
 }
 
 .sidebarright {
     background: white;
     grid-area: sidebarright;
     border-left: 1px solid black;
+    background: blue
 }
 
-.content1 {
-    /* background: #18ffff; */
-    grid-area: content1; 
+.content1-1 {
+    background: #18ffff;
+    grid-area: content1-1; 
     text-align: center;
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }
 
-.content2 {
-    /* background: #64ffda; */
-    grid-area: content2;
+.content1-2 {
+    background: #18ffff;
+    grid-area: content1-2; 
+    background: black;
+}
+
+.content1-3 {
+    background: #18ffff;
+    grid-area: content1-3; 
+    background: black;
+}
+
+.content2-1 {
+    background: #64ffda;
+    grid-area: content2-1;
     text-align: center;
+    background: green;
+}
+
+.content2-2 {
+    background: #64ffda;
+    grid-area: content2-2;
+    background: black;
+}
+
+.content2-3 {
+    background: #64ffda;
+    grid-area: content2-3;    
+    background: black;
 }
 
 footer {
