@@ -6,6 +6,10 @@ body {
     box-sizing: border-box;
   }  
 
+:root {
+    font-family:Arial, Helvetica, sans-serif;
+}  
+
   img {
     width: 100%;
     height: auto;
@@ -14,7 +18,7 @@ body {
 .container {
     display: grid;
     height: 100vh;
-    grid-template-columns:  0.3fr 0.2fr 3fr 0.2fr 3fr 0.2fr 3fr 0.2fr 0.3fr;
+    grid-template-columns:  0.3fr 0.2fr 3fr 0.5fr 3fr 0.5fr 3fr 0.2fr 0.3fr;
     grid-template-rows: 0.5fr 3fr 3fr 0.2fr;
     grid-template-areas:
         "nav nav nav nav nav nav nav nav nav"
@@ -25,59 +29,53 @@ body {
 
 nav {
     grid-area: nav; 
-    background: red; 
+    /* background: red;  */
 }
 
 .sidebarleft {
     background: white;
     grid-area: sidebarleft;
-    border-right: 1px solid black;
-    background: blueviolet;
+    /* background: blueviolet; */
 }
 
 .sidebarright {
-    background: white;
     grid-area: sidebarright;
-    border-left: 1px solid black;
-    background: blue
+    /* background: blue */
 }
 
 .content1-1 {
-    background: #18ffff;
+    /* background: #18ffff; */
     grid-area: content1-1; 
-    text-align: center;
+    /* text-align: center; */
     /* margin-top: 60px; */
+    margin-bottom: 60px;
 }
 
 .content1-2 {
-    background: #18ffff;
+    /* background: #18ffff; */
     grid-area: content1-2; 
-    background: yellow;
 }
 
 .content1-3 {
-    background: #18ffff;
+    /* background: #18ffff; */
     grid-area: content1-3; 
-    background:red;
 }
 
 .content2-1 {
-    background: #64ffda;
+    /* background: #64ffda; */
     grid-area: content2-1;
-    text-align: center;
-    background: green;
+    /* text-align: center; */
+    margin-bottom: 60px;
 }
 
 .content2-2 {
-    background: #64ffda;
-    grid-area: content2-2;
-    background: orange;
+      grid-area: content2-2;
+    /* background: orange; */
 }
 
 .content2-3 {
-    background: #64ffda;
     grid-area: content2-3;    
-    background: black;
+    /* background: black; */
 }
 
 footer {
@@ -94,9 +92,10 @@ footer {
     overflow: hidden;
     font-weight: 800;
     background-color: white; 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     background-color:lightblue; 
+    margin-bottom: 60px;
 }
 .navbarlist {
     float: left;  
@@ -117,28 +116,15 @@ li a {
     float: inline;
     clear: both;
     max-width: 500px;
-    height: auto;
     min-width: 200px;
+    height: auto;
     padding-bottom: 15px;
 }
 
-.recipeglance {
-    border: 1px solid black;
-    min-width: 200px;
-    max-width: 500px;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 16px;
-    margin-bottom: 50px;
-    text-align: left;
-    align-content: left;
-
-}
 
 .rating {
     align-content: left;
     font-size: 25px;
-    margin-right: 360px;   /*Needs to be aligned left properly */
   }
 
   .checked {
@@ -156,4 +142,8 @@ li a {
     margin: 4px 2px;
     cursor: pointer;
     background-color: lightgray;
+  }
+
+  .buttonclass {
+      text-align: center;
   }
