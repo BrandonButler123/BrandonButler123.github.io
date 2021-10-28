@@ -48,7 +48,7 @@ nav {
     grid-area: content1-1; 
     /* text-align: center; */
     /* margin-top: 60px; */
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .content1-2 {
@@ -65,7 +65,7 @@ nav {
     /* background: #64ffda; */
     grid-area: content2-1;
     /* text-align: center; */
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .content2-2 {
@@ -79,7 +79,6 @@ nav {
 }
 
 footer {
-    background: #1de9b6;
     grid-area: footer;
 }
 
@@ -95,7 +94,7 @@ footer {
     padding-top: 3px;
     padding-bottom: 3px;
     background-color:lightblue; 
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 .navbarlist {
     float: left;  
@@ -115,12 +114,50 @@ li a {
 .tacquitos {
     float: inline;
     clear: both;
-    max-width: 500px;
+    max-width: 600px;
     min-width: 200px;
     height: auto;
     padding-bottom: 15px;
 }
 
+.shortrib {
+        float: inline;
+        clear: both;
+        max-width: 600px;
+        min-width: 200px;
+        max-height: 615px;
+        height: auto;
+        padding-bottom: 15px;
+}
+
+.taichicken {
+    float: inline;
+    clear: both;
+    max-width: 600px;
+    min-width: 200px;
+    max-height: 615px;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+.cheeseburger {
+    float: inline;
+    clear: both;
+    max-width: 600px;
+    min-width: 200px;
+    max-height: 615px;
+    height: auto;
+    padding-bottom: 15px;
+}
+.scallops {
+    float: inline;
+    clear: both;
+    max-width: 600px;
+    min-width: 200px;
+    max-height: 615px;
+    height: auto;
+    padding-bottom: 15px;
+}
 
 .rating {
     align-content: left;
@@ -146,4 +183,9 @@ li a {
 
   .buttonclass {
       text-align: center;
+  }
+
+  .recipeglance {
+    max-width: 600px;
+    min-width: 200px;
   }
