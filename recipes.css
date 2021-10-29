@@ -1,5 +1,9 @@
 body {
     margin: 0px;
+    background-image: url(recipebackground.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
 }
 
 * {
@@ -33,7 +37,6 @@ nav {
 }
 
 .sidebarleft {
-    background: white;
     grid-area: sidebarleft;
     /* background: blueviolet; */
 }
