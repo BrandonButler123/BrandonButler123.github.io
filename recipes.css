@@ -100,9 +100,10 @@ footer {
     background-color: white; 
     padding-top: 3px;
     padding-bottom: 3px;
-    background-color:lightblue; 
+    background-color: lightblue; 
     margin-bottom: 100px;
 }
+
 .navbarlist {
     float: left;  
 }
