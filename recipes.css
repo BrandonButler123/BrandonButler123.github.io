@@ -121,51 +121,59 @@ li a {
 }
 
 .shortrib {
-        float: inline;
-        clear: both;
-        max-width: 600px;
-        min-width: 200px;
-        max-height: 615px;
-        height: auto;
-        padding-bottom: 15px;
-}
-
-.taichicken {
     float: inline;
     clear: both;
     max-width: 600px;
     min-width: 200px;
-    max-height: 615px;
     height: auto;
     padding-bottom: 15px;
 }
+
+.thaichicken {
+    float: inline;
+    clear: both;
+    max-width: 600px;
+    min-width: 200px;
+    height: auto;
+    padding-bottom: 15px;
+}
+
 
 .cheeseburger {
     float: inline;
     clear: both;
     max-width: 600px;
     min-width: 200px;
-    max-height: 615px;
     height: auto;
     padding-bottom: 15px;
 }
+
 .scallops {
     float: inline;
     clear: both;
     max-width: 600px;
     min-width: 200px;
-    max-height: 615px;
     height: auto;
     padding-bottom: 15px;
 }
+
+.wings {
+    float: inline;
+    clear: both;
+    max-width: 600px;
+    min-width: 200px;
+    height: auto;
+    padding-bottom: 15px;
+}
+
 
 .rating {
     align-content: left;
     font-size: 25px;
   }
 
-  .checked {
-    color: orange;
+.checked {
+    color:goldenrod;
   }
 
   .button1 {
@@ -185,7 +193,39 @@ li a {
       text-align: center;
   }
 
-  .recipeglance {
+  .recipeglance1-1 {
     max-width: 600px;
     min-width: 200px;
+    margin: 2px;
   }
+
+  .recipeglance1-2 {
+    max-width: 600px;
+    min-width: 200px;
+    margin: 2px;
+  }
+
+  .recipeglance1-3 {
+    max-width: 600px;
+    min-width: 200px;
+    margin: 2px;
+  }
+  
+  .recipeglance2-1 {
+    max-width: 600px;
+    min-width: 200px;
+    margin: 2px;
+  }
+
+  .recipeglance2-2 {
+    max-width: 600px;
+    min-width: 200px;
+    margin: 2px;
+  }
+
+  .recipeglance2-3 {
+    max-width: 600px;
+    min-width: 200px;
+    margin: 2px;
+  }
+  
