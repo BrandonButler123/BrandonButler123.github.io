@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    /* background-image: url(recipebackground.jpg); */
+    /* background-image: url(recipebackground.jpg); */ 
     background-attachment: fixed;
     background-size: cover;
     background-image: linear-gradient(white, lightblue);
@@ -98,11 +98,11 @@ footer {
     padding: 0px;
     overflow: hidden;
     font-weight: 800;
-    background-color: white; 
     padding-top: 3px;
     padding-bottom: 3px;
     background-color: lightblue; 
     margin-bottom: 100px;
+    color: black;
 }
 
 .navbarlist {
@@ -115,7 +115,7 @@ li a {
     text-align: center;
     padding: 12px 16px;
     font-size: 16px;
-    color: #000042;
+    /* color: #000042; */
     text-decoration: none;
     margin: 0px;
 } 
@@ -178,7 +178,7 @@ li a {
 
 .rating {
     align-content: left;
-    font-size: 25px;
+    font-size: 35px;
   }
 
 .checked {
