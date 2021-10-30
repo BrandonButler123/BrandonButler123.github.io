@@ -1,8 +1,9 @@
 body {
     margin: 0px;
-    background-image: url(recipebackground.jpg);
+    /* background-image: url(recipebackground.jpg); */
     background-attachment: fixed;
     background-size: cover;
+    background-image: linear-gradient(white, lightblue);
 }
 
 * {
@@ -47,7 +48,7 @@ nav {
 
 .sidebarright {
     grid-area: sidebarright;
-    /* background: blue */
+    /* background: blue; */
 }
 
 .content1-1 {
