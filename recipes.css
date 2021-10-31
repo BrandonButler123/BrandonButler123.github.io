@@ -6,6 +6,10 @@ body {
     background-image: linear-gradient(white, lightblue);
 }
 
+a {
+    text-decoration: none;
+}
+
 * {
     box-sizing: border-box;
   }  
