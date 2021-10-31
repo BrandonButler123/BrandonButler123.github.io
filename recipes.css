@@ -86,7 +86,7 @@ nav {
     /* background: black; */
 }
 
-.footer {
+footer {
     grid-area: footer;
 }
 
@@ -120,7 +120,7 @@ li a {
     margin: 0px;
 } 
 
-.tacquitos {
+.taquitos {
     float: inline;
     clear: both;
     max-width: 600px;
@@ -178,7 +178,7 @@ li a {
 
 .rating {
     align-content: left;
-    font-size: 35px;
+    font-size: 40px;
   }
 
 .checked {
