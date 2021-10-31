@@ -32,11 +32,11 @@ body {
 .container {
     display: grid;
     height: 100vh;
-    grid-template-columns:  0.2fr 0.5fr 2.5fr 3.5fr 0.1fr 4fr 0.5fr 0.2fr;
+    grid-template-columns:  0.2fr 0.5fr 2.5fr 3.5fr 0.5fr 4fr 0.5fr 0.2fr;
     grid-template-rows: 0.5fr 3fr 0.5fr 3fr 2fr;
     grid-template-areas:
         "nav nav nav nav nav nav nav nav"
-        "sidebarleft div1-1 content1-1 content1-12 div1-2 content1-2 div1-3 sidebarright"
+        "sidebarleft div1-1 content1-1 content1-12 content1-12 content1-12 div1-3 sidebarright"
         "sidebarleft div1-1 heading heading heading heading div1-3 sidebarright"
         "sidebarleft div2-1 content2-1 content2-1 div2-2 content2-2 div2-3 sidebarright"
         "footer footer footer footer footer footer footer footer";
@@ -68,7 +68,8 @@ nav {
     /* background: #18ffff; */
     grid-area: content1-12; 
     text-align: left;
-    margin-top: 60px;
+    /* margin-top: 60px; */
+    margin-left: 70px;
     /* margin-bottom: 100px; */
 }
 
@@ -80,7 +81,7 @@ nav {
 
 .heading {
     grid-area: heading;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .content2-1 {
@@ -93,12 +94,13 @@ nav {
 
 .content2-2 {
     grid-area: content2-2;
-    background: orange;
+    /* background: orange; */
 
 }
 
-footer {
+.footer {
     grid-area: footer;
+    margin-bottom: 500px;
 }
 
 /*-------------------------------------------------------------------------------------------------------- Setting up the grid */
@@ -143,16 +145,43 @@ li a {
 
 .description {
     text-align: left;
-    font-size: 18px;
+    font-size: 20px;
    max-width: 800px; 
     margin-top: 60px;
-    font-weight: ;
+    font-weight: 400
 }
 
 .description_heading {
     font-size: 35px;
     font-weight: 800;
     margin-bottom: 25px;
-
 }
 
+.heading{
+    font-size: 25px;
+}
+
+
+.tacquitolist {
+    text-align: left;
+    font-size: 18px;
+    padding-bottom: 3px;
+  
+    
+}
+
+.tacquitocontent {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tacquitoingediants {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.tacquitolist2{
+    text-align: left;
+    margin-bottom: 30px;
+}
