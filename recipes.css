@@ -86,7 +86,7 @@ nav {
     /* background: black; */
 }
 
-footer {
+.footer {
     grid-area: footer;
 }
 
