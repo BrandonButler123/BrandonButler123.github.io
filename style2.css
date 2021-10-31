@@ -1,3 +1,8 @@
+
+a {
+    text-decoration: none;
+}
+
 body {
     margin: 0px;
     /* background-image: url(recipebackground.jpg); */
@@ -27,13 +32,14 @@ body {
 .container {
     display: grid;
     height: 100vh;
-    grid-template-columns:  0.3fr 0.5fr 3fr 0.5fr 3fr 0.5fr 0.3fr;
-    grid-template-rows: 0.5fr 3fr 3fr 0.2fr;
+    grid-template-columns:  0.2fr 0.5fr 2.5fr 3.5fr 0.1fr 4fr 0.5fr 0.2fr;
+    grid-template-rows: 0.5fr 3fr 0.5fr 3fr 2fr;
     grid-template-areas:
-        "nav nav nav nav nav nav nav"
-        "sidebarleft div1-1 content1-1 div1-2 content1-2 div1-3 sidebarright"
-        "sidebarleft div2-1 content2-1 div2-2 content2-2 div2-3 sidebarright"
-        "footer footer footer footer footer footer footer";
+        "nav nav nav nav nav nav nav nav"
+        "sidebarleft div1-1 content1-1 content1-12 div1-2 content1-2 div1-3 sidebarright"
+        "sidebarleft div1-1 heading heading heading heading div1-3 sidebarright"
+        "sidebarleft div2-1 content2-1 content2-1 div2-2 content2-2 div2-3 sidebarright"
+        "footer footer footer footer footer footer footer footer";
 }
 
 nav {
@@ -42,37 +48,53 @@ nav {
 
 .sidebarleft {
     grid-area: sidebarleft;
-    background: blueviolet;
+    /* background: blueviolet; */
 }
 
 .sidebarright {
     grid-area: sidebarright;
-    background: blue;
+    /* background: blue; */
 }
 
 .content1-1 {
-    background: #18ffff;
+    /* background: #18ffff; */
     grid-area: content1-1; 
-    /* text-align: center; */
-    /* margin-top: 60px; */
+    text-align: left;
+    margin-top: 60px;
+    /* margin-bottom: 100px; */
+}
+
+.content1-12 {
+    /* background: #18ffff; */
+    grid-area: content1-12; 
+    text-align: left;
+    margin-top: 60px;
     /* margin-bottom: 100px; */
 }
 
 .content1-2 {
-    background: #18ffff;
-    grid-area: content1-2; 
+    /* background: #18ffff; */
+    grid-area: content1-2;
+    margin-top: 60px;
+}
+
+.heading {
+    grid-area: heading;
+    margin-top: 200px;
 }
 
 .content2-1 {
     background: #64ffda;
     grid-area: content2-1;
+  
     /* text-align: center; */
     /* margin-bottom: 100px; */
 }
 
 .content2-2 {
-      grid-area: content2-2;
+    grid-area: content2-2;
     background: orange;
+
 }
 
 footer {
@@ -91,7 +113,7 @@ footer {
     padding-top: 3px;
     padding-bottom: 3px;
     background-color: lightblue; 
-    /* margin-bottom: 100px; */
+    margin-bottom: 100px;
 }
 
 .navbarlist {
@@ -108,3 +130,29 @@ li a {
     text-decoration: none;
     margin: 0px;
 } 
+
+.profile {
+    border-radius: 50%;
+    height: auto;
+    max-width: 500px;
+    min-width: 200px;
+    /* margin: 100px;  */
+    position: relative;
+    align-content: center;
+} 
+
+.description {
+    text-align: left;
+    font-size: 18px;
+   max-width: 800px; 
+    margin-top: 60px;
+    font-weight: ;
+}
+
+.description_heading {
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 25px;
+
+}
+
