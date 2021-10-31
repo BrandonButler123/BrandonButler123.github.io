@@ -32,14 +32,14 @@ body {
 .container {
     display: grid;
     height: 100vh;
-    grid-template-columns:  0.2fr 0.5fr 2.5fr 3.5fr 0.5fr 4fr 0.5fr 0.2fr;
+    grid-template-columns:  1fr 1fr 0.2fr 2fr 1fr;
     grid-template-rows: 0.5fr 3fr 0.5fr 3fr 2fr;
     grid-template-areas:
-        "nav nav nav nav nav nav nav nav"
-        "sidebarleft div1-1 content1-1 content1-12 content1-12 content1-12 div1-3 sidebarright"
-        "sidebarleft div1-1 heading heading heading heading div1-3 sidebarright"
-        "sidebarleft div2-1 content2-1 content2-1 div2-2 content2-2 div2-3 sidebarright"
-        "footer footer footer footer footer footer footer footer";
+        "nav nav nav nav nav"
+        "sidebarleft content1-1 div1-1 content1-2 sidebarright"
+        "sidebarleft heading heading heading sidebarright"
+        "sidebarleft content2-1 div2-1 content2-2 sidebarright"
+        "footer footer footer footer footer";
 }
 
 nav {
@@ -85,7 +85,7 @@ nav {
 }
 
 .content2-1 {
-    background: #64ffda;
+    /* background: #64ffda; */
     grid-area: content2-1;
   
     /* text-align: center; */
@@ -98,9 +98,8 @@ nav {
 
 }
 
-.footer {
+footer {
     grid-area: footer;
-    margin-bottom: 500px;
 }
 
 /*-------------------------------------------------------------------------------------------------------- Setting up the grid */
@@ -146,19 +145,20 @@ li a {
 .description {
     text-align: left;
     font-size: 20px;
-   max-width: 800px; 
-    margin-top: 60px;
+   max-width: 2fr; 
     font-weight: 400
 }
 
 .description_heading {
     font-size: 35px;
     font-weight: 800;
-    margin-bottom: 25px;
 }
 
 .heading{
-    font-size: 25px;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    /* margin-bottom: 25px; */
 }
 
 
@@ -166,22 +166,57 @@ li a {
     text-align: left;
     font-size: 18px;
     padding-bottom: 3px;
-  
-    
+}
+
+.tacquitos {
+    max-width: 2fr;
+    height: auto;
 }
 
 .tacquitocontent {
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 18px;
 }
 
 .tacquitoingediants {
     text-align: left;
     padding-left: 20px;
+    font-size: 24px;
 }
 
 .tacquitolist2{
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    font-size: 18px;
 }
+
+.recipe {
+    border: 1px solid black;
+    height: auto;
+}
+
+.tacquitoheading {
+    text-align: center;
+    font-size: 30px;
+    padding-left: 20px;
+    margin-bottom: 60px;
+}
+
+.button1 {
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: lightgray;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .buttonclass {
+      text-align: center;
+  }
