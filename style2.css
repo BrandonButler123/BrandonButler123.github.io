@@ -195,6 +195,7 @@ li a {
 .recipe {
     border: 1px solid black;
     height: auto;
+    background: rgba(253, 246, 246, 0.4);
 }
 
 .tacquitoheading {
