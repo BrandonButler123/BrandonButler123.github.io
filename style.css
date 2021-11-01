@@ -200,6 +200,7 @@ li a {
     width: 600px;
     border: 1px solid black;
     margin-left: 100px;
+    background: rgba(253, 246, 246, 0.4);
 }
 
 .recipe {
