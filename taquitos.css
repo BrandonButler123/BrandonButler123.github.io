@@ -15,29 +15,31 @@ body {
     box-sizing: border-box;
   }  
 
+:root {
+    font-family:Arial, Helvetica, sans-serif;
+}  
+
   img {
     width: 100%;
     height: auto;
   }
 
-:root {
-    font-family:Arial, Helvetica, sans-serif;
-}  
-
-
-
+  /* p {
+      background-color: aliceblue;
+      opacity: 0.5;
+  } */
 
 .container {
     display: grid;
     height: 100vh;
-    grid-template-columns:  1fr 1fr 0.2fr 2fr 1fr;
-    grid-template-rows: 0.5fr 3fr 0.5fr 3fr 2fr;
+    grid-template-columns:  1fr 2fr 1fr;
+    grid-template-rows: 0.5fr 3fr 3fr 3fr 0.5fr;
     grid-template-areas:
-        "nav nav nav nav nav"
-        "sidebarleft content1-1 div1-1 content1-2 sidebarright"
-        "sidebarleft heading heading heading sidebarright"
-        "sidebarleft content2-1 div2-1 content2-2 sidebarright"
-        "footer footer footer footer footer";
+        "nav nav nav"
+        "sidebarleft content1-1 sidebarright"
+        "sidebarleft content2-1 sidebarright"
+        "sidebarleft content3-1 sidebarright"
+        "footer footer footer";
 }
 
 nav {
@@ -59,29 +61,14 @@ nav {
     grid-area: content1-1; 
 }
 
-.content1-12 {
-    /* background: #18ffff; */
-    grid-area: content1-12; 
-}
-
-.content1-2 {
-    /* background: #18ffff; */
-    grid-area: content1-2;
-}
-
-.heading {
-    grid-area: heading;
-}
-
 .content2-1 {
     /* background: #64ffda; */
     grid-area: content2-1;
+    align-content: left;
 }
 
-.content2-2 {
-    grid-area: content2-2;
-    /* background: orange; */
-
+.content3-1 {
+    grid-area: content3-1;
 }
 
 footer {
@@ -118,3 +105,33 @@ li a {
     margin: 0px;
 } 
 
+h2 {
+    text-align: left;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.taquitos{
+    max-width: 800px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+ol {
+    font-size: 20px;
+}
+
+.instructions {
+    font-weight: 200;
+    margin-bottom: -25px;
+}
