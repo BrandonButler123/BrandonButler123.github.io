@@ -19,4 +19,18 @@ Open index.html
 ![POC](https://github.com/BrandonButler123/Tutorial1/blob/main/website1POC.jpg)
 
 
-
+```
+project
+│   README.md
+│   index.html  
+└───HTML
+    │   side.html
+└───Stylesheets
+    │   main.css  
+└───Js
+    │   main.js
+└───Public
+│   └───Images
+│       │   Image1.jpg
+│       │   Image2.png
+│       │   ..
