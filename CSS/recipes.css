@@ -275,7 +275,20 @@ li a {
         'footer footer';
         grid-gap: 25px;
     }
+
+    .content1-1 {
+        min-width: 475px;
+    }
+    .content2-3 {
+        padding-bottom: 50px;
+        min-width: 475px;
+    }
+
+    .navbar {
+        min-width: 950px;
+    }
   }
+
 
   @media (max-width: 650px) {
     .container {
@@ -288,6 +301,22 @@ li a {
         'content2-2' 
         'content2-3'
         'footer';
-        grid-gap: 25px;
+    }
+
+    .navbar {
+        min-width: 650px;
+    }
+
+    .content1-1{
+        margin-top: -50px;
+        margin-bottom: 0px;
+    }
+
+    .content2-1{
+        margin-bottom: 0px;
+    }
+
+    .content2-3 {
+        padding-bottom: 50px;
     }
   }
