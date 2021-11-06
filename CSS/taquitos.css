@@ -135,3 +135,20 @@ ol {
     font-weight: 200;
     margin-bottom: -25px;
 }
+
+@media (max-width: 800px) {
+    .container {
+      grid-template-areas:
+        'nav'
+        'content1-1' 
+        'content2-1'
+        'content3-1'
+        'footer';
+    }
+
+    .navbar {
+        min-width: 800px;
+    }
+
+    .
+}
