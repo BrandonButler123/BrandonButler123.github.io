@@ -221,3 +221,31 @@ li a {
   .buttonclass {
       text-align: center;
   }
+
+
+  @media (max-width: 950px) {
+    .container {
+      grid-template-areas:
+        'nav'
+        'content1-1' 
+        'content1-2'
+        'heading'
+        'content2-2'
+        'content2-1'
+        'footer';
+        grid-gap: 25px;
+    }
+
+    .navbar {
+        min-width: 950px;
+    }
+
+    .heading {
+        margin-top: 50px;
+        margin-bottom: -30px;
+    }
+
+    .content1-1 {
+      text-align: center;
+  }
+  }
