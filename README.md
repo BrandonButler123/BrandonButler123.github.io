@@ -16,7 +16,7 @@ Open index.html
 
 #### Please see the included POC prototype below
 
-![POC](https://github.com/BrandonButler123/Tutorial1/blob/main/website1POC.jpg)
+![POC](https://github.com/BrandonButler123/Cooking_with_brandon.eats/blob/main/images/website1POC.jpg)
 
 
 ```
