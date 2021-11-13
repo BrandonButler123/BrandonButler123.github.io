@@ -7,3 +7,8 @@ var name = "Tom";
 var age = 20;
 
 15.2314 === 15.2314
+
+console.log('Hello World');
+ length
+ 
+
