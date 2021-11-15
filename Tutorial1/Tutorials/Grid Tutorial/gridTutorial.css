@@ -1,0 +1,110 @@
+.site {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    grid-gap: 10px;
+    grid-template-areas:"header header"
+    "title sidebar"
+    "main sidebar"
+    "footer footer";
+    grid-gap: 10px;
+    margin: 20px;
+    padding: 10px;
+    border: solid 2px #000;
+
+}
+ 
+.site > *{
+    padding: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.mastheader {
+    background: #b46ae3;
+    grid-area: header;
+}
+
+.page-title {
+    background: #51a7fa;
+    grid-area: title;
+}
+
+.main-content {
+    background: #70bf40;
+    grid-area: main;
+    min-height: 500px;
+}
+
+.sidebar {
+    background: #f49018;
+    grid-area: sidebar;
+}
+
+.footer {
+    background: #0265c0;
+    grid-area: footer;
+}
+
+.site::before{
+    content:".site";
+    position: absolute;
+    left: 20px;
+    top: 2px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px;
+    grid-gap:10px ;
+}
+
+.grid-item {
+    background-color: lightblue;    
+    padding: 10px;
+    border: solid 1px black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.title {
+    margin: 20px;
+    padding: 10px;
+    background-color: palevioletred;
+    text-align: center;
+}
+
+.p1 {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:#70bf40;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.grid-container1 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
