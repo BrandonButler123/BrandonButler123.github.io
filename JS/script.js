@@ -1,14 +1,19 @@
-var surname = prompt('Greetings friend, may I enquire as to your surname?');
+let requests = [];
 
-var surname;
-var age;
+const addRequest = (ev)=>{
+    ev.preventDefault(); 
+    let request = {
+        id: Date.now(),
+        name: document.getElementById('full-name').value,
+        email: document.getElementById('email-address').value,
+        message: document.getElementById('message').value
+    }
+    requests.push(request);
+    document.forms[0].reset(); 
+    
+    console.warn('added' , {requests} );
 
-var name = "Tom";
-var age = 20;
-
-15.2314 === 15.2314
-
-console.log('Hello World');
- length
- 
-
+}
+document.addEventListener('DOMContentLoaded', ()=>{
+    document.getElementById('btn').addEventListener('click', addRequest);
+});
