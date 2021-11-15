@@ -109,6 +109,12 @@ li a {
     margin-bottom: 50px;
 }
 
+
+input {
+    margin-top: 10px;
+}
+
+
 @media (max-width: 800px) {
     .container {
       grid-template-areas:
@@ -122,3 +128,6 @@ li a {
     .navbar {
         min-width: 800px;
     }
+
+
+
