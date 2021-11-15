@@ -1,0 +1,257 @@
+
+
+
+/* Why is website not to the edge of website? Appears to be a white border arond the entire page */
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+    height: auto; 
+    object-fit:cover;
+  }
+   
+
+  * {
+    box-sizing: border-box;
+  }
+
+/* [class*="col-"] {
+    width: 100%;
+  }
+  
+
+@media only screen and (min-width: 768px) {
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  } */
+
+.grid_container1 {
+    display: grid;
+    width: min(100%);
+    grid-template-columns: 15% 70% 15%;
+    text-align: center;
+    background-color: lightblue;
+}
+
+
+.home {
+    padding: 15px;;
+    background-color: white;
+    font-size: 35px;
+    font-weight: 800;
+   
+}
+
+/* Why are the navbar items underlined?? */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: 800;
+    background-color: lightcoral;
+}
+
+
+.navbarlist {
+    float: left; 
+}
+
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 16px;
+    color: #000042;
+    text-decoration: none;
+}
+
+
+.block1 {
+    display: grid;
+    width: min(100%);
+    grid-template-columns: 35% 65%;
+    background-color: white;
+    height: 550px;
+    padding-top: 10px;
+}
+
+
+
+.block2 {
+    display: grid;
+    width: min(100%);
+    background-color: white;
+    height: 100px;
+}
+
+.feature {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.block3 {
+    display: grid;
+    width: min(100%);
+    background-color: white;
+    height: 550px;
+    grid-template-columns: 60% 40%;
+}
+
+
+
+.grid_container2 {
+    display: grid;
+    width: min(100%);
+    grid-template-columns: 15% 70% 15%;
+    text-align: center;
+    background-color:lightblue;
+}
+
+
+.grid_container3 {
+    display: grid;
+    width: min(100%);
+    grid-template-columns: 15% 70% 15%;
+    text-align: center;
+    background-color:lightblue;
+    height: 10px;
+}
+
+.kitchen {
+    height: 150px;
+    align-content: center;
+    
+}
+
+.kitchenprofile {
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    margin: 100px; 
+    position: relative;
+    border: 1px solid black;
+    /* max-width: 350px; */
+    max-height: 40em;
+} 
+
+
+/* added in img {width: 100%  and height: auto, seams to resize better than this*/
+/* @media screen and (max-width: 1500px) {
+    .kitchenprofile {
+      max-width: 75%;
+  }
+}
+  
+@media screen and (max-width: 1670px) {
+    .tacquitos {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .tacquitos {
+        max-width: 250px;
+    }
+} */
+
+
+.description {
+    text-align: left;
+    margin: 100px 100px;
+    /* Why is the text going behind image when resized? Need image to change in size while text moves or need to keep text in place.  */
+    position: sticky;
+}
+
+.description_heading {
+    font-size: 35px;
+    font-weight: 800;
+    padding-bottom: 5px;
+
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^top of page^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+.tacquitos {
+    height: 500px;
+    width: 600px;
+    border: 1px solid black;
+    margin-left: 100px;
+    background: rgba(253, 246, 246, 0.4);
+}
+
+.recipe {
+    border: 1px solid black;
+    margin-right: 100px;
+    height: 500px;
+}
+
+.heading {
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.checked {
+    color: orange;
+  }
+.rating {
+    text-align: left;
+    margin-left: 100px;
+    font-size: 30px;
+    padding-top: 5px;
+  }
+
+.tacquitolist {
+    text-align: left;
+    font-size: 18px;
+    padding-bottom: 3px;
+  
+    
+}
+
+.tacquitocontent {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tacquitoingediants {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.tacquitolist2{
+    text-align: left;
+    margin-bottom: 30px;
+}
+/* ------------------------------------------------------------------------------------bottom of page-------------------------------------------------------------------------------------------- */
+
+.footer {
+    background-color: white;
+    height: 15px;
+}
