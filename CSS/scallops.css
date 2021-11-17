@@ -33,12 +33,13 @@ body {
     display: grid;
     height: 100vh;
     grid-template-columns:  1.4fr 2fr 1fr;
-    grid-template-rows: 0.5fr 3fr 3fr 3fr 0.5fr;
+    grid-template-rows: 0.5fr 3fr 3fr 3fr 2fr 0.5fr;
     grid-template-areas:
         "nav nav nav"
         "sidebarleft content1-1 sidebarright"
         "sidebarleft content2-1 sidebarright"
         "sidebarleft content3-1 sidebarright"
+        "sidebarleft content4-1 sidebarright"
         "footer footer footer";
 }
 
@@ -71,6 +72,11 @@ nav {
 
 .content3-1 {
     grid-area: content3-1;
+    max-width: 800px;
+}
+
+.content4-1 {
+    grid-area: content4-1;
     max-width: 800px;
 }
 
