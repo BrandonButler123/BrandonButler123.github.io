@@ -1,13 +1,13 @@
 
+var down = document.getElementById('location'); 
+  
+var arr = ["Tasty!", "This looks delicious", "yummy", "Get in my belly"];
+  
 
-
-
-const comments = ["Tasty!", "This looks delicious", "yummy"];
-
-const para = document.createElement("p");
-node = document.createTextNode(comments[1]);
-para.appendChild(node);
-const element = document.getElementById("content4-1");
-element.appendChild(para);
-
-//figure out how to randomize array comment being pushed to node
+function random(mn, mx) { 
+    return Math.random() * (mx - mn) + mn; 
+} 
+  
+function insert() {
+    down.innerHTML = arr[Math.floor(random(1, 5))-1];
+}
