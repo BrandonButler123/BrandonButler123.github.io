@@ -114,6 +114,9 @@ input {
     margin-top: 10px;
 }
 
+.fa-instagram {
+    font-size: 30px;
+}
 
 @media (max-width: 800px) {
     .container {

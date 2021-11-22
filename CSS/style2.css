@@ -223,6 +223,10 @@ li a {
   }
 
 
+  .fa-instagram {
+    font-size: 30px;
+}
+
   @media (max-width: 950px) {
     .container {
       grid-template-areas:
