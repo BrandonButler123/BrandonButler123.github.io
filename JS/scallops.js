@@ -12,6 +12,17 @@ function insert1() {
 
 const node1 = document.createTextNode(insert1());
 
+//------------adding picture--------------------------------------//
+
+
+
+
+
+
+
+
+
+
 //-----------------------Trying to get the 2nd comment in here------------------------------------------//
 
 
@@ -23,3 +34,29 @@ function insert2() {
 }
 
 const node2 = document.createTextNode(insert2());
+
+
+//-------------------Adding comment to page upon click ---------------------------------------------------//
+
+window.postComment=function()
+{
+var div = document.getElementById("comments");
+
+div.innerHTML = div.innerHTML +"<br>"+ document.getElementById("comment").value;
+
+}
+
+//------------------------prevent page refresh upon button click ------------------------------------------//
+
+document.getElementById("buttonClick").addEventListener("click", function(event){
+    event.preventDefault()
+});
+
+
+//------------------add border to comment when button is clicked ---------------------------------------------//
+
+function addBorder() {
+    document.getElementById('comments').style.border = '1px solid black';
+  };
+  
+  
