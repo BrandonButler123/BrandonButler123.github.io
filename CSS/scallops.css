@@ -43,6 +43,31 @@ body {
         "footer footer footer";
 }
 
+.container2  {
+    display: grid;
+    height: 20vh;
+    grid-template-columns: 6fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "arrContent1"
+    "arrContent2"
+    "content3"
+    "comment";
+}
+
+.arrContent1 {
+    grid-area: arrContent1;
+}
+.arrContent2 {
+    grid-area: arrContent2;
+}
+.content3 {
+    grid-area: content3;
+}
+
+
+
+
 nav {
     grid-area: nav; 
 }
@@ -152,9 +177,34 @@ ol {
         margin-bottom: -25px;
 }
 
-/*-----------------------------------------------BootStrapCode ----------------------------------------------------*/
+
+#location1 {
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 15px 8px;
+}
 
 
+#location2 {
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 15px 8px;
+}
+
+/* #comments {
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 15px 8px;
+} */ 
+
+#comment {
+    grid-area: comment;
+    border: solid 1px black;
+    border-radius: 5px;
+    width: 800px;
+}
+
+.
 
 /*----------------------------------------------media tags----------------------------------------------------------*/
 @media (max-width: 800px) {
