@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="/CSS/scallops.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
     <title>Pan Seared Scallops</title>
+    <i class="fab fa-instagram"></i>
 </head>
 <body>
     
@@ -71,25 +73,43 @@
         </div> 
         <br>
         
-        <div id="comment1">
+        <div class="content4-1">
             <p>Comments:</p>
-            <br>
-            <p id = "location1"></p>
+            <div class="container2">
+
+                <div class="arrContent1">
+                        <p id = "location1"></p>
+                </div>
+
+                <div class="arrPicture1"></div>
+               
+                <div class="arrContent2">
+                        <p id="location2"></p>  
+                </div>
+              
+                <div class="content3">
+                    <div id="comments">
+                    </div>
+                </div>
+                <br>
+                <div class="comment">
+                    <form>
+                        <textarea name="commentbox" id="comment" placeholder="Make a comment..." cols="90" rows="8"></textarea>
+                        <br>
+                        <button id="buttonClick" onclick="postComment();" onmousedown="addBorder()">Submit</button>
+                    </form>
+                </div>
+                
+                <br>
+            </div>
+      
+            
+            
+            <footer> </footer>
+            <script src="/JS/scallops.js"></script>
         </div>
-
-        <div id="comment2">
-            <p id="location2"></p>
-        </div>
-
-        <!------------------------------------------------------------------ Attempting to add bootstrap  -------------------------------------------------------->
-
- 
-<!-- ------------------------------------------------End of BootStrap------------------------------------------------------------------ -->
-
-
         
-        <footer> </footer>
-        <script src="/JS/scallops.js"></script>
+
     </div>    
 </body>
 </html>
