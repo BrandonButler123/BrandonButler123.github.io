@@ -47,7 +47,7 @@ body {
     display: grid;
     height: 20vh;
     grid-template-columns: 6fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
     "arrContent1"
     "arrContent2"
@@ -182,6 +182,7 @@ ol {
     border: solid 1px black;
     border-radius: 5px;
     padding: 15px 8px;
+    margin-bottom: -2px;
 }
 
 
@@ -197,16 +198,42 @@ ol {
     padding: 15px 8px;
 } */ 
 
+.something {
+    border: solid 1px black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 15px 8px;
+    height: 51px;
+}
+
 #comment {
     grid-area: comment;
     border: solid 1px black;
     border-radius: 5px;
     width: 800px;
+    margin-top: -14px;
+    padding: 12px 10px;
+    font-size:large;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 .fa-instagram {
     font-size: 25px;
 }
+
+#buttonClick {
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: lightgray;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
 
 /*----------------------------------------------media tags----------------------------------------------------------*/
 @media (max-width: 800px) {
