@@ -67,9 +67,12 @@ const node2 = document.createTextNode(insert2());
 
 window.postComment=function()
 {
-var div = document.getElementById("comments");
+const div = document.getElementById("comments");
 
-div.innerHTML = div.innerHTML +"<br>"+ document.getElementById("comment").value;
+
+//---TAKE A LOOK AGAIN THIS IS THE CODE YOU CULDNT FIGURE OUT 
+
+div.innerHTML = div.innerHTML + "<div class='something'>" +"<br>"+ document.getElementById("comment").value + "</div>";
 
 }
 
@@ -83,7 +86,7 @@ document.getElementById("buttonClick").addEventListener("click", function(event)
 //------------------add border to comment when button is clicked ---------------------------------------------//
 
 function addBorder() {
-    document.getElementById('comments').style.border = '1px solid black';
+    // document.getElementById('comments').style.border = '1px solid black';
   };
   
   
