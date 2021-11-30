@@ -85,8 +85,55 @@ document.getElementById("buttonClick").addEventListener("click", function(event)
 
 //------------------add border to comment when button is clicked ---------------------------------------------//
 
-function addBorder() {
-    // document.getElementById('comments').style.border = '1px solid black';
-  };
+// function addBorder() {
+//     document.getElementById('comments').style.border = '1px solid black';
+//   };
   
   
+// Creating array for images 
+
+// Attempt #1
+
+const down3 = document.getElementById('picture1');
+const arrImage = new Array();
+
+arrImage[0] = new Image();
+arrImage[0].src = '/images/avatar1.png';
+
+arrImage[1] = new Image();
+arrImage[1].src = '/images/avatar2.png';
+
+arrImage[2] = new Image();
+arrImage[2].src = '/images/avatar3.png';
+  
+arrImage[3] = new Image();
+arrImage[3].src = '/images/avatar4.png';
+
+function insert3() {
+    down3.innerHTML = arrImage[Math.floor(random(1, 5))-1];
+}
+
+const node3 = document.createElement(insert3());
+
+
+// Attempt #2
+
+// const imageArray = [
+//     { name: 'avatar1', image: '/images/avatar1.png'},
+//     { name: 'avatar2', image: '/images/avatar2.png'},
+//     { name: 'avatar3', image: '/images/avatar3.png'},
+//     { name: 'avatar4', image: '/images/avatar4.png'},
+// ];
+
+// function getRandomItem(arr) {
+//     return arr[Math.floor(Math.random() * arr.length)];
+//   };
+
+// for (let i = 0; i < arrpicture1.length; i += 1) {
+//     const fruit = getRandomItem(imageArray);
+//     arrpicture1[i].innerHTML = fruit.name + '<img src="'+fruit.image+'">';
+// };
+
+
+
+
