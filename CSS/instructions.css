@@ -46,13 +46,13 @@ body {
 .container2  {
     display: grid;
     height: 20vh;
-    grid-template-columns: 6fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
-    "arrContent1"
-    "arrContent2"
-    "content3"
-    "comment";
+    "arrpicture1 arrContent1"
+    "arrpicture2 arrContent2"
+    "arrpicture3 content3"
+    "comment comment";
 }
 
 .arrContent1 {
@@ -65,6 +65,17 @@ body {
     grid-area: content3;
 }
 
+.picture1 {
+    grid-area: picture1;
+}
+
+.picture2 {
+    grid-area: picture2;
+}
+
+.picture3 {
+    grid-area: picture3;
+}
 
 
 
@@ -234,7 +245,20 @@ ol {
     border-radius: 5px;
 }
 
+.avatar1 {
+    width: 50px;
+    height: auto;
+}
 
+.avatar2 {
+    width: 50px;
+    height: auto;
+}
+
+.avatar3 {
+    width: 50px;
+    height: auto;
+}
 /*----------------------------------------------media tags----------------------------------------------------------*/
 @media (max-width: 800px) {
     .container {
