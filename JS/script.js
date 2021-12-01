@@ -1,3 +1,5 @@
+//-------------------request page
+
 let requests = [];
 
 const addRequest = (ev)=>{
@@ -24,7 +26,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
 
 
-
+//------------------1st comment
 
 const down1 = document.getElementById('location1');  
 const arr1 = ["Tasty!", "This looks delicious!!!", "Yummy!", "Get in my belly!"];
@@ -39,18 +41,8 @@ function insert1() {
 
 const node1 = document.createTextNode(insert1());
 
-//------------adding picture--------------------------------------//
 
-
-
-
-
-
-
-
-
-
-//-----------------------Trying to get the 2nd comment in here------------------------------------------//
+//-----------------------2nd comment 
 
 
 const down2 = document.getElementById('location2');
@@ -63,33 +55,23 @@ function insert2() {
 const node2 = document.createTextNode(insert2());
 
 
-//-------------------Adding comment to page upon click ---------------------------------------------------//
+//-------------------Adding comment to page upon click 
 
-window.postComment=function()
-{
+window.postComment=function() {
+
 const div = document.getElementById("comments");
-
-
-//---TAKE A LOOK AGAIN THIS IS THE CODE YOU CULDNT FIGURE OUT 
 
 div.innerHTML = div.innerHTML + "<div class='something'>" +"<br>"+ document.getElementById("comment").value + "</div>";
 
-}
+};
 
-//------------------------prevent page refresh upon button click ------------------------------------------//
+
+//------------------------prevent page refresh upon button click 
 
 document.getElementById("buttonClick").addEventListener("click", function(event){
     event.preventDefault()
 });
 
-
-//------------------add border to comment when button is clicked ---------------------------------------------//
-
-// function addBorder() {
-//     document.getElementById('comments').style.border = '1px solid black';
-//   };
-  
-  
 // Creating array for images 
 
 // Attempt #1
@@ -166,6 +148,18 @@ function buildImage2() {
   function buildImageMulti() {
       buildImage1();
       buildImage2();
+      addImage();
   };
 
 //need function to insert pic upon button click
+
+
+
+  function addImage() {
+      let img = document.createElement('img');
+      img.src = images2[index2];
+      document.getElementById('arrpicture3').appendChild(img);
+
+  };
+
+
