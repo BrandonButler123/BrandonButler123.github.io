@@ -94,46 +94,78 @@ document.getElementById("buttonClick").addEventListener("click", function(event)
 
 // Attempt #1
 
-const down3 = document.getElementById('picture1');
-const arrImage = new Array();
+// const down3 = document.getElementById('picture1');
+// const arrImage = new Array();
 
-arrImage[0] = new Image();
-arrImage[0].src = '/images/avatar1.png';
+// const arrImage = ['/images/avatar1.png', '/images/avatar2.png', '/images/avatar3.png', '/images/avatar4.png'];
 
-arrImage[1] = new Image();
-arrImage[1].src = '/images/avatar2.png';
 
-arrImage[2] = new Image();
-arrImage[2].src = '/images/avatar3.png';
+
+// arrImage[0] = new Image();
+// arrImage[0].src = 'images/avatar1.png';
+
+// arrImage[1] = new Image();
+// arrImage[1].src = 'images/avatar2.png';
+
+// arrImage[2] = new Image();
+// arrImage[2].src = 'images/avatar3.png';
   
-arrImage[3] = new Image();
-arrImage[3].src = '/images/avatar4.png';
+// arrImage[3] = new Image();
+// arrImage[3].src = 'images/avatar4.png';
 
-function insert3() {
-    down3.innerHTML = arrImage[Math.floor(random(1, 5))-1];
-}
+// arrImage[4] = new Image();
+// arrImage[4].src = 'images/avatar5.png';
 
-const node3 = document.createElement(insert3());
+// function insert3() {
+//     down3.innerHTML = arrImage[Math.floor(random(1, 4))-1];
+// }
+
+// const node3 = document.getElementById(insert3()).appendChild;
 
 
-// Attempt #2
+// let images = ['/images/avatar1.png', '/images/avatar2.png', '/images/avatar3.png', '/images/avatar4.png']
 
-// const imageArray = [
-//     { name: 'avatar1', image: '/images/avatar1.png'},
-//     { name: 'avatar2', image: '/images/avatar2.png'},
-//     { name: 'avatar3', image: '/images/avatar3.png'},
-//     { name: 'avatar4', image: '/images/avatar4.png'},
-// ];
-
-// function getRandomItem(arr) {
-//     return arr[Math.floor(Math.random() * arr.length)];
-//   };
-
-// for (let i = 0; i < arrpicture1.length; i += 1) {
-//     const fruit = getRandomItem(imageArray);
-//     arrpicture1[i].innerHTML = fruit.name + '<img src="'+fruit.image+'">';
-// };
+// function myImages () {
+//     document.getElementById('images').src = images[0];
+// }
 
 
 
 
+
+
+
+
+// let img = document.createElement("img");
+// img.src = ['/images/avatar1.png', '/images/avatar2.png', '/images/avatar3.png', '/images/avatar4.png'];
+
+// let div = document.getElementById("x");
+// div.appendChild(img);
+
+
+const images1 = ['/images/avatar2.png', '/images/avatar2.png', '/images/avatar3.png', '/images/avatar4.png'];
+const index1 = 0;
+
+function buildImage1() {
+    let img = document.createElement('img')
+    img.src = images1[index1];
+    document.getElementById('content').appendChild(img);
+  };
+
+
+  const images2 = ['/images/avatar5.png', '/images/avatar6.png', '/images/avatar7.png', '/images/avatar8.png'];
+const index2 = 0;
+
+function buildImage2() {
+    let img = document.createElement('img')
+    img.src = images2[index2];
+    document.getElementById('content2').appendChild(img);
+  };
+
+
+  function buildImageMulti() {
+      buildImage1();
+      buildImage2();
+  };
+
+//need function to insert pic upon button click
